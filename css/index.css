@@ -1,0 +1,263 @@
+/* CSS Document */
+
+body {
+            font-family: "Microsoft YaHei", "SimSun", Arial, sans-serif;
+            background: #fafbfc;
+            color: #222;
+            margin: 0;
+            padding: 0;
+}
+
+h2 { margin-top: 1.5em; color: #1a3557; font-size: 1.5em; }
+h3 { margin-top: 1.2em; color: #2c3e50; font-size: 1.15em; }
+.desc {
+            color: #555;
+            margin-bottom: 18px;
+            font-size: 1.05em;
+}
+.line-select-area {
+            margin-bottom: 24px;
+}
+.axis-label {
+            font-size: 0.95em;
+            fill: #444;
+}
+.highlight {
+            color: #007acc;
+            font-weight: bold;
+}
+.field-list {
+            margin-left: 25px;
+}
+.tooltip {
+            position: absolute;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            pointer-events: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-size: 1em;
+            color: #222;
+            min-width: 160px;
+            display: none;
+}
+/* 紧凑分析区块段落 */
+.container p,
+.container h3,
+.container h4 {
+            margin-top: 0.5em;
+            margin-bottom: 0.8em;
+}
+.container,
+.container * {
+            line-height: 1.9 !important;
+}
+.legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px 18px;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 20px;
+}
+.legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            margin-right: 0;
+}
+.legend-color {
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
+            border-radius: 3px;
+}
+
+
+.container {
+	margin: 0 calc((100% - 900px) / 2);
+	height:100%;
+}
+
+.navibar .container{
+	height:30px;
+	vertical-align: middle;
+	display: grid;
+	grid-template-columns: 85% 15%;
+	align-items: center;
+}
+.header .container{
+	display:grid;
+	grid-template-columns: 60% 40%;
+}
+
+.header {
+	margin: 0;
+	background-color: #333333;
+	height:250px;
+	color:aliceblue;
+}
+
+body {
+	margin:0;
+}
+
+.title {
+	padding:50px 0;
+	height:auto;
+}
+
+.authors {
+	margin-top:50px;
+	color:lightgray;
+}
+
+.title h1 {
+	font-size:35px;
+}
+
+.icon {
+	height: 20px;
+	border-width: 2px;
+	border-color:black;
+	border-radius: 2px;
+}
+
+.navirepo {
+	border:1px  #AFAFAF;
+	border-radius: 2px;
+	width:130px;
+	height: 20px;
+	background-color:#F4F4F4;
+	float:right;
+	padding:0 ;
+	line-height: 20px;
+}
+
+.navirepo a {
+	height:15px;
+	display: grid;
+	place-items:center;
+	grid-template-columns: 20% 80%;
+	font-size:12px;
+	text-decoration: none; /* removes underline */
+  	color: inherit;         /* inherits color from parent */
+  	font-style:normal;     /* removes italic or oblique */
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.navibar {
+	padding:5px 0;
+	position: sticky;
+	top: 0;
+	background: white;
+	z-index: 1000;
+	border:1px solid #D7D7D7;
+	background: #F5F5F5;
+}
+
+.navirepo a span {
+	vertical-align: middle;
+	line-height: 1em;
+}
+
+.navirepo a img {
+}
+
+.tooltip {
+            position: absolute;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            pointer-events: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-size: 1em;
+            color: #222;
+            min-width: 160px;
+            display: none;
+}
+.description p {
+	display: block;
+	white-space: pre-line !important;
+	text-indent: 2em !important;
+	line-height: 1.9;
+}
+
+
+.footer {
+	background: #333333;
+	margin-top:100px;
+	height:100px;
+	border-top: 1px solid #AFAFAF;
+}
+
+.sepbar {
+	display: block;
+	margin:30px 25%;
+	background-color:#CCCCCC; 
+	border-radius: 1px;
+	height:1px;
+}
+
+
+.controlpanel {
+	display: block;
+	align-content: center;
+}
+
+.diagram {
+	padding:25px;
+	border: 1px solid #E4E4E4;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px 0 rgba(0,0,0,0.06);
+	margin-bottom:20px;
+}
+
+.container li,
+.container span
+{
+	line-height: 1.5 !important;
+}
+
+.select {
+  width: 100%;
+  padding: 10px 35px 10px 15px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* 鼠标悬停效果 */
+.select:hover {
+  border-color: #a0a0a0;
+}
+
+/* 聚焦效果 */
+.select:focus {
+  outline: none;
+  border-color: #2196F3;
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+}
+
+/* 自定义下拉箭头 */
+
+
+/* 下拉选项样式（注意：部分浏览器可能不支持） */
+.select option {
+  padding: 12px;
+  background: #fff;
+  color: #333;
+}
+
+.select option:hover {
+  background: #f5f5f5;
+}

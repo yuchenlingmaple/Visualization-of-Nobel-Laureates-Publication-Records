@@ -1,0 +1,59 @@
+.bar { transition: all 0.3s; }
+body { font-family: Arial, sans-serif; }
+#chart { display: block; margin: 0 auto; }
+
+#controls {
+    margin-bottom: 20px;
+}
+.axis text {
+    font-size: 14px;
+}
+.axis-label {
+    font-size: 16px;
+    fill: #333;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    font-size: 14px;
+    min-width: 160px;
+}
+#analysis {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+.analysis-section {
+    margin-bottom: 35px;
+    line-height: 1.7;
+    color: #34495e;
+}
+.analysis-section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin: 25px 0 20px;
+}
+.highlight {
+    color: #c0392b;
+    font-weight: 600;
+}
+.field-list {
+    margin-left: 25px;
+}
+.institution-case {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+} 
