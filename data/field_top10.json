@@ -1,0 +1,128 @@
+{
+  "Chemistry": [
+    {
+      "Affiliation": "harvard university",
+      "count": 12
+    },
+    {
+      "Affiliation": "max planck society",
+      "count": 11
+    },
+    {
+      "Affiliation": "stanford university",
+      "count": 8
+    },
+    {
+      "Affiliation": "cornell university",
+      "count": 7
+    },
+    {
+      "Affiliation": "university of california san diego",
+      "count": 7
+    },
+    {
+      "Affiliation": "laboratory of molecular biology",
+      "count": 7
+    },
+    {
+      "Affiliation": "rockefeller university",
+      "count": 5
+    },
+    {
+      "Affiliation": "technion israel institute of technology",
+      "count": 5
+    },
+    {
+      "Affiliation": "wilmington university",
+      "count": 5
+    },
+    {
+      "Affiliation": "yale university",
+      "count": 5
+    }
+  ],
+  "Physics": [
+    {
+      "Affiliation": "stanford university",
+      "count": 13
+    },
+    {
+      "Affiliation": "university of chicago",
+      "count": 11
+    },
+    {
+      "Affiliation": "massachusetts institute of technology",
+      "count": 11
+    },
+    {
+      "Affiliation": "california institute of technology",
+      "count": 10
+    },
+    {
+      "Affiliation": "university of california berkeley",
+      "count": 8
+    },
+    {
+      "Affiliation": "harvard university",
+      "count": 7
+    },
+    {
+      "Affiliation": "university of cambridge",
+      "count": 7
+    },
+    {
+      "Affiliation": "university of illinois at urbana champaign",
+      "count": 7
+    },
+    {
+      "Affiliation": "university of edinburgh",
+      "count": 7
+    },
+    {
+      "Affiliation": "princeton university",
+      "count": 6
+    }
+  ],
+  "Medicine": [
+    {
+      "Affiliation": "rockefeller university",
+      "count": 18
+    },
+    {
+      "Affiliation": "harvard university",
+      "count": 15
+    },
+    {
+      "Affiliation": "national institutes of health",
+      "count": 12
+    },
+    {
+      "Affiliation": "university college london",
+      "count": 11
+    },
+    {
+      "Affiliation": "washington university in st louis",
+      "count": 9
+    },
+    {
+      "Affiliation": "columbia university",
+      "count": 8
+    },
+    {
+      "Affiliation": "max planck society",
+      "count": 7
+    },
+    {
+      "Affiliation": "cold spring harbor laboratory",
+      "count": 5
+    },
+    {
+      "Affiliation": "stanford university",
+      "count": 5
+    },
+    {
+      "Affiliation": "university of cambridge",
+      "count": 5
+    }
+  ]
+}
